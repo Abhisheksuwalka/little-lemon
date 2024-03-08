@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Little Lemon</title>
+
+    <!-- FOR SOCIAL MEDIA CARD -->
+    <meta property="og:title" content="sign up | little lemon" />
+    <meta property="og:image" content="./images/cute_lemon.jpg" />
+    <meta property="og:type" content="website" />
+    <!-- NEED TO BE FILLED AFTER POSTING ON GITHUB -->
+    <meta property="og:url" content="" />
+    <meta property="og:discription" content="little lemon signup page" />
+
+    <!-- STYLING PART -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        background-color: rgb(211, 255, 145);
+        font-family: vt323;
+        align-items: center;
+        text-align: center;
+        font-size: xx-large;
+      }
+      .vt323-regular {
+        font-family: "VT323", monospace;
+        font-weight: 400;
+        font-style: normal;
+      }
+      img {
+        background-size: cover;
+      }
+      nav > ul {
+        content: "";
+        display: inline-block;
+      }
+      h1 {
+        font-size: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="site-logo" class="image logo">
+        <img
+          src="./images/pixelated_lemon.png"
+          alt="Little lemon Pixelated image"
+          width="20%"
+        />
+      </div>
+      <h1>Little Lemon</h1>
+    </header>
+    <nav>
+      <ul>
+        <!-- NEED TO UPDATE THIS AFTER THE WEBSITE IS COMPLETED -->
+        <li><a href="https://www.meta.com">menu</a></li>
+        <li><a href="https://www.meta.com">about us</a></li>
+        <li><a href="https://www.meta.com">contact us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Sign Up</h2>
+      <form>
+        <div>
+          <label for="user-first-name">First Name</label>
+          <input
+            type="text"
+            id="user-first-name"
+            class="form-item user-name user-first-name"
+          />
+        </div>
+        <div>
+          <label for="user-last-name">Last Name</label>
+          <input
+            type="text"
+            id="user-last-name"
+            class="form-item user-name user-last-name"
+          />
+        </div>
+        <div>
+          <label for="user-email">Email</label>
+          <input type="email" id="user-email" class="form-item user-email" />
+        </div>
+        <div>
+          <label for="user-password">Password</label>
+          <input
+            type="password"
+            id="user-password"
+            class="form-item user-password"
+          />
+        </div>
+        <div>
+          <label for="user-confirm-password">Confirm Password</label>
+          <input
+            type="password"
+            id="user-confirm-password"
+            class="form-item user-password"
+          />
+        </div>
+        <div>
+          <label for="user-submit-button">Submit</label>
+          <input
+            type="submit"
+            id="user-submit-button"
+            class="form-item user-submit"
+          />
+        </div>
+      </form>
+    </main>
+    <footer>
+      <p>Come visit us on thursdays for special discount.</p>
+    </footer>
+  </body>
+</html>
